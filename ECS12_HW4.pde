@@ -33,6 +33,8 @@ void drawAnimal(int depth, float size) {
   ellipse(7, 15, 17, 30);
   //BODY
   ellipse(0, 0, 75, 50);
+  //TAIL
+  ellipse(36, 7, 2, 22);
   //NEAR LEFT LEG
   ellipse(-7, 20, 17, 30);
   //NEAR RIGHT LEG
@@ -43,7 +45,7 @@ void drawAnimal(int depth, float size) {
   stroke(0);
   //SPOTS
   fill(0);
-  ellipse( random(-15, 15), random(-15, 15), random(20), random(20) );
+  ellipse( random(-15, 15), random(-15, 15), random(15, 25), random(15, 25) );
   fill(255);
   //HEAD
   ellipse(-25, -10, 35, 48);
