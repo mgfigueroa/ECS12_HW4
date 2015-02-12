@@ -57,9 +57,13 @@ void drawAnimal(int depth, float size) {
   ellipse(-15, 0, 10, 5);
   ellipse(-35, 0, 10, 5);  
   //EYES
-  strokeWeight(3);
+  strokeWeight(2);
   ellipse(-32, -20, 8, 5);
   ellipse(-19, -20, 8, 5);
+  fill(0);
+  ellipse(-32, -20, 1, 1);
+  ellipse(-19, -20, 1, 1);
+  fill(255);
   //EARS
   ellipse(-3, -22, 15, 8);
   ellipse(-47, -22, 15, 8); 
